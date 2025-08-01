@@ -1,46 +1,187 @@
-Privacy and Data Protection Policy
+Index
 
-Company Information
-Company Name: [COMPANY_NAME]
-Company Location: [COMPANY_LOCATION]
-Company Website: [COMPANY_WEBSITE]
-CEO: [CEO_NAME]
+1. Introduction 3
+2. Responsibilities and roles under the Privacy and Data Protection Regulations 4
+3. Data protection principles 5
+4. Data Subjects’ rights 6
+5. Security of data 7
+6. Disclosure of data 7
+7. Retention and disposal of data 7
+8. Data transfers 8
+9. Assessments 9
+10. Information asset register/data inventory 10
 
-Data Protection Officer and Contacts
-DPO: [DPO_NAME] ([DPO_EMAIL]) - [DPO_LOCATION]
-Privacy Contact Email: [PRIVACY_EMAIL]
-UK Representative: [UK_REP]
+1. Introduction
 
-Types of Data
-Data Subjects: [DATA_SUBJECTS]
-Categories of Personal Data: [DATA_CATEGORIES]
+1.1 Privacy and Data Protection Program
+[CUSTOMER_NAME] and other affiliates as created or acquired from time to time (collectively “[CUSTOMER_NAME]”) is subject to privacy and data protection regulations worldwide and the organization is committed to complying with applicable portions of those regulations (the “Privacy and Data Protection Regulations”).   This program document outlines [CUSTOMER_NAME]’ key responsibilities to comply with Privacy and Data Protection Regulations as they apply to the processing of Personal Data.
 
-Legal Basis
-Legal Basis for Processing: [LEGAL_BASIS]
+[CUSTOMER_NAME] is established in the European Union through its subsidiary, [CUSTOMER_NAME] and complies with the EU General Data Protection Regulation (EU GDPR) via its third party Data Protection Officer in The Netherlands.  [CUSTOMER_NAME] also maintains a third party Data Protection Representative in the United Kingdom pursuant to UK GDPR.  All other global privacy and data protection compliance is managed through [CUSTOMER_NAME]’ Operations team.  [CUSTOMER_NAME] aims to comply with privacy and data protection standards that provide for the most protection of Data Subjects’ rights.
 
-Retention and Disposal
-Retention Period: [RETENTION_PERIOD]
-Disposal Method: [DISPOSAL_METHOD]
+Compliance with the Privacy and Data Protection Regulations is described by this program document and addressed in related policies and procedures set forth in Exhibit A. The Privacy and Data Protection Regulations and this policy apply to all of [CUSTOMER_NAME]’ Personal Data processing functions, including those performed on customers’, clients’, employees’, suppliers’ and partners’ Personal Data, and any other Personal Data that [CUSTOMER_NAME] Processes from any source.  [CUSTOMER_NAME] has implemented engineering and communications procedures/worksheets that require a review of Privacy by Design principles prior to implementation or development of processes that involve personal data.
 
-Data Transfers
-Transfers outside EU/EEA: [TRANSFER_OUTSIDE_EU]
-Safeguards: [TRANSFER_GUARDS]
+This program applies to all [CUSTOMER_NAME] employees and outsourced personnel. Any breach of the Privacy and Data Protection Regulations will be dealt with under [CUSTOMER_NAME] disciplinary policy and may also be a criminal offence, in which case the matter will be reported as soon as possible to the appropriate authorities. Partners and any third parties working with or for [CUSTOMER_NAME], and who have or may have access to Personal Data, are expected to comply with all contractual and applicable regulatory obligations. No Third Party may access Personal Data held by [CUSTOMER_NAME] without having first agreed to confidentiality language set forth in the applicable agreement, which imposes on the third-party obligations no less onerous than those to which [CUSTOMER_NAME] is committed, and which gives [CUSTOMER_NAME] the right to audit compliance with the agreement.
 
-Subprocessors and Vendors
-Use Vendors: [USE_VENDORS]
-Vendor Management: [VENDOR_MANAGEMENT]
+[CUSTOMER_NAME] engages with consultants to assist with periodic audits of the program.  In addition, it utilizes consultants and industry resources to prepare for changes to Privacy and Data Protection Regulations.
 
-Rights Requests
-How to Exercise Rights: [RIGHTS_EXERCISE]
+1.2 Definitions
+Definitions vary by Privacy and Data Protection Regulation.  The most common definitions are included below:
+1.2.1 Controller - determines the purpose and means of processing.  A Controller may be referred to as a business owner, business operator or other designation depending on the applicable Privacy and Data Protection Regulation.
+1.2.2 Data Subject – any living individual who is the subject of Personal Data Processed by or on behalf of [CUSTOMER_NAME].  
+1.2.3 Personal Data  – any information that is linked or reasonably linked to an identified or identifiable Data Subject; an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.  California considers the above information as it relates to a “household” to also be Personal Data.
+1.2.4 Processing/Process/Processed/Processes – any operation or set of operations which is performed on Personal Data or on sets of Personal Data, whether or not by automated means, such as collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction. 
+1.2.5 Processor – conducts the processing of Personal Data on behalf, or at the direction, of the Controller.  A Processor may be referred to as a service provider, contractor or other designation depending on the applicable Privacy and Data Protection Regulation.
+1.2.6 Third Party – a natural or legal person, public authority, agency or body other than the Data Subject, Controller, Processor and persons who, under the direct authority of the Controller or Processor, are authorized to Process Personal Data.  
+2. Responsibilities and roles under the Privacy and Data Protection Regulations
 
-Supervisory Authority
-Complaint Escalation: [COMPLAINT_ESCALATION]
-Supervisory Authority: [SUPERVISORY_AUTHORITY]
+2.1[CUSTOMER_NAME] manages Privacy and Data Protection Regulation compliance through its Operations team. [CUSTOMER_NAME] has assigned the role of EU Data Protection Officer to DPO Consultancy located in the Netherlands and UK Data Protection Representative to DPO Consultancy located in the UK.  Under EU GDPR and UK GDPR, there are no employees of [CUSTOMER_NAME] with the required “independence” to act as Data Protection Officer under those regulations.  Operations assists the EU Data Protection Officer and UK Data Protection Representative in fulfilling their responsibilities set forth under the Privacy and Data Protection Regulations.
+2.2 Operations is responsible for overall management of the Privacy and Data Protection Program and maintains this program document as well as conducts periodic meetings with Senior Management regarding the program, including results of any audits, notification of issues, and notification of new Privacy and Data Protection Regulations or changes to existing Privacy and Data Protection Regulations.  As needed, Operations partners with third parties, such as the EU Data Protection Officer and/or UK Data Protection Representative, to communicate with team members and third parties.
+2.3 Operations is responsible for maintaining the register of processing (Data Processing Map) in the light of any changes to [CUSTOMER_NAME]’ activities (as determined by changes to data processing and management review) and to any additional requirements identified by means of Data Processing Impact Assessments (DPIAs). Relevant Operations personnel and the EU Data Protection Officer review the Data Processing Map when any changes are made and advise on potential risks.  The Data Processing Map and any DPIAs are made available to government authorities pursuant to proper request.
+2.4 Operations maintains all privacy and data protection documentation, including internal and user-facing policies, which are updated as needed.  Operations conducts research and tracking of legislation and manages team member training.
+2.5 All employees are accountable for the management of Personal Data within [CUSTOMER_NAME] and for ensuring that compliance with data protection legislation and good practice can be demonstrated. Employees competence requirements are set forth in the Privacy and Data Protection Competence Requirements.  Employee job descriptions include requirements set forth in the Personal Data Protection Job Description Responsibilities document.  This accountability includes:
+2.5.1 implementation of the Privacy and Data Protection Regulation program; and 
+2.5.2 security and risk management in relation to compliance with the program via adherence to [CUSTOMER_NAME]’ Information Security Policy.
+Compliance with data protection legislation is the responsibility of all [CUSTOMER_NAME] employees  who Process Personal Data and/or work with third parties that Process Personal Data on [CUSTOMER_NAME]’ behalf. 
+2.6[CUSTOMER_NAME] employees are responsible for ensuring that any Personal Data about them and supplied by them to [CUSTOMER_NAME] is accurate and up-to-date.  Employees seeking clarification on any aspect of data protection compliance related to their own Personal Data or that of third parties can contact: EU - eudpo@[CUSTOMER_NAME].com, UK - ukdpr@[CUSTOMER_NAME].com, Other - dpo@[CUSTOMER_NAME].com.  
+2.7 Employees are trained on privacy and data protection requirements in relation to their specific roles. All training is managed by Operations and provided via third party training platform or ad hoc training by the Operations team, the EU DPO, or the UK DPR, as applicable.  The training schedule is set forth in the Privacy and Data Protection Training Matrix (see Tab 2).
+2.8 Any Processor processing Personal Data with or on behalf of [CUSTOMER_NAME] is required pursuant to the terms of specific contracts to comply with Privacy and Data Protection Regulation requirements to the same standard and level as [CUSTOMER_NAME] itself.
+2.9[CUSTOMER_NAME] does not provide online service to anyone under the age of majority (which ranges from 13-20 years old depending on jurisdiction and other age ranges elsewhere).  Users must have reached the minimum age of consent in their jurisdiction prior to using our service per the Privacy Policy and Terms of Service. 
+3. Data protection principles
+All processing of Personal Data must be conducted in accordance with the data protection principles as set out in Privacy and Data Protection Regulations.  For purposes of uniformity in the program, the below principles  are followed.
 
-IT Systems
-Main Systems: [IT_SYSTEMS]
+3.1 Personal Data must be Processed lawfully, fairly and transparently
+●Lawful – identify a lawful basis before you can Process Personal Data (i.e., consent).
+●Fair – use Personal Data as expected and not in ways that would cause adverse effect on Data Subjects. 
+●Transparent – communicate processing information practices and Data Subject rights in a timely manner and clear format (i.e., privacy policy). 
+3.2 Personal Data can only be collected for specific, explicit and legitimate purposes 
+3.3 Personal Data must be adequate, relevant and limited to what is necessary for processing 
+3.4 Personal Data must be accurate and kept up to date with every effort to erase or rectify without delay 
+3.5 Personal Data must be kept in a form such that the Data Subject can be identified only if it is necessary for processing.
+3.6 Personal Data must be Processed in a manner that ensures the appropriate security 
+3.7 The Controller must be able to demonstrate compliance with accountability principles
+[CUSTOMER_NAME] demonstrates compliance with the data protection principles by implementing and maintaining data protection policies, implementing and maintaining technical and organizational measures, as well as adopting and maintaining techniques such as data protection by design, DPIAs, breach notification procedures and incident response plans.
+4. Data Subjects’ rights
 
-Versioning
-Policy Owner: [POLICY_OWNER]
-Approval Date: [APPROVAL_DATE]
-Version: [VERSION]
+4.1 Data Subjects have the following rights regarding data processing, and the data that is recorded about them:
+4.1.1 To make access requests regarding the nature of information held and to whom it has been disclosed.
+4.1.2 To prevent processing likely to cause damage or distress.
+4.1.3 To prevent processing for purposes of direct marketing.
+4.1.4 To be informed about the mechanics of automated decision-making processes that will significantly affect them.
+4.1.5 To not have significant decisions that will affect them taken solely by automated process.
+4.1.6 To sue for compensation if they suffer damage by any contravention of the applicable Privacy Regulations.
+4.1.7 To act to rectify, block, erase, including the right to be forgotten, or destroy inaccurate data. 
+4.1.8 To request a supervisory authority to assess whether any provision of the Privacy Regulations has been contravened. 
+4.1.9 To have Personal Data provided to them in a structured, commonly used and machine-readable format, and the right to have that data transmitted to another Controller.
+4.1.10 To object to any automated profiling that is occurring without consent. 
+4.1.11 To object to the sale of their data to third parties (i.e., under California law).
+4.2[CUSTOMER_NAME] ensures that Data Subjects may exercise these rights by providing contact information in its privacy policies and through forms in its online support center.  Community Success keeps records of all Data Subject requests for two (2) years to assist with compliance records.  [CUSTOMER_NAME] automatically erases Personal Data immediately when users close their accounts, subject to any exceptions set forth in the Personal Data Erasure Exceptions record. 
+4.3 Specific information about erasure requests: Data Subjects are entitled to obtain erasure of Personal Data concerning them without undue delay where: (i) the Personal Data are no longer necessary in relation to the purposes for which they were collected or otherwise Processed; (ii) the Data Subject withdraws consent on which the processing is based and where there is no other legal ground for processing; (iii) the Data Subject objects to the processing and there are no overriding legitimate grounds for the processing (including objection to direct marketing); (iv) the Personal Data have been unlawfully Processed; (v) the Personal Data must be erased for compliance with a legal obligation in the applicable jurisdiction. Erasure requests may be subject to exceptions depending on the Data Subject’s activities with [CUSTOMER_NAME] prior to request - such exceptions are outlined in the Personal Data Erasure Exceptions record. 
+4.4 Complaint Escalation.  Community Success escalates in non-standard complaints and requests to the General Counsel & Director of Compliance and the DPO, as applicable.  Scenarios for escalation include, but are not limited to: when a request/question cannot be resolved through standard processes; when a request/question is received from a minor; serious complaints such as those received via a Data Protection Authority or received from a data subject who wants to pursue judicial redress; and complex access requests in case a request deviates from the regular request procedure.
+4.5 Data Protection Authority Notifications.  Any communications received from a Data Protection Authority are immediately forwarded to the General Counsel & Director of Compliance and the DPO, as applicable.
+5. Security of data
+
+5.1 All Employees are responsible for ensuring that any Personal Data that [CUSTOMER_NAME] holds and for which they are responsible, is kept securely and is not under any conditions disclosed to any Third Party unless that Third Party has been specifically authorized by [CUSTOMER_NAME] to receive that information under contract between the parties, subject to additional confidentiality and security obligations.  
+5.2 All Personal Data should be accessible only to those who need to use it, and access may only be granted in line with the Information Security Policy. All Employees are required to certify that they have read, understand and agree to the Information Security Policy before they are given access to organizational information of any sort.
+5.3 Personal Data may only be deleted or disposed of in line with [CUSTOMER_NAME]’ Data Governance Program. Manual records that have reached their retention date are to be shredded and disposed of as ‘confidential waste’. Hard drives of redundant computers are to be removed and immediately destroyed as required by the Information Security Policy.
+5.4[CUSTOMER_NAME] has an obligation to report a breach of security leading to the accidental, or unlawful, destruction, loss, alteration, unauthorized disclosure of, or access to, Personal Data that it transmits, stores or otherwise Processes. This obligation flows through to those processing Personal Data on [CUSTOMER_NAME]’ behalf.  [CUSTOMER_NAME] will report Personal Data breaches to the relevant supervisory authority where the breach is likely to adversely affect the Personal Data or privacy of the Data Subject.  [CUSTOMER_NAME] may also be required to report the incidents directly to the Data Subject depending on the circumstances.  Additional information about incident response is included in [CUSTOMER_NAME]’ Incident Response Policy and Procedure.
+6. Disclosure of data
+
+6.1[CUSTOMER_NAME] must ensure that Personal Data is not disclosed to unauthorized third parties which includes family members, friends, government bodies, and in certain circumstances, the Police. All Employees should exercise caution when asked to disclose Personal Data held on another individual to a third party and will review such requests with Operations, who will consult with outside counsel, the EU DPO, or the UK DPR, if applicable. 
+6.2 All requests to provide data for one of these reasons must be supported by appropriate paperwork and all such disclosures must be specifically authorized by Operations.
+7. Retention and disposal of data
+
+7.1[CUSTOMER_NAME] shall not keep Personal Data in a form that permits identification of Data Subjects for a longer period than is necessary, in relation to the purpose(s) for which the data was originally collected. 
+7.2[CUSTOMER_NAME] may store data for longer periods if the Personal Data will be Processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, subject to the implementation of appropriate technical and organizational measures to safeguard the rights and freedoms of the Data Subject.
+7.3 The retention period for each category of Personal Data is determined based on regulatory requirements and/or documented business needs.  Depending on the type and location of the data, [CUSTOMER_NAME] either sets automated retention/deletion policies or the individual business units are responsible for following retention/deletion requirements.  [CUSTOMER_NAME]’ Data Governance Program sets forth retention/deletion requirements.
+7.4[CUSTOMER_NAME]’ data retention and data disposal procedures set forth in the Information Security Policy will apply in all cases.
+7.5 Personal Data must be disposed of securely in accordance with the Privacy and Data Protection Regulations and in accordance with the Information Security Policy.
+8. Data transfers
+
+8.1[CUSTOMER_NAME] treats all exports of data from within the Data Subject’s home country to other countries (or regions, i.e., with respect to EU GDPR) as unlawful unless there is an appropriate “level of protection for the fundamental rights of the Data Subjects.”  In all cases, [CUSTOMER_NAME] will enter into appropriate contractual terms regarding the transfer (Data Processing Agreement), covering a Processor’s obligations as well as any of its sub-processors.  Third parties are assessed at the beginning of the relationship, upon any changes to the relationship, and every one to three years during the relationship pursuant to [CUSTOMER_NAME]’ Vendor Management Policy and Procedures.  The following additional safeguards or exceptions may also apply depending on the origin and destination of the Personal Data:
+8.1.1 An adequacy decision
+Many countries maintain lists of other countries that adhere to adequate information and security protocols.  For example, countries that are members of the European Economic Area (EEA) but not of the EU are accepted as having met the conditions for an adequacy decision related to Personal Data derived from those countries’ residents.   
+8.1.2 Binding corporate rules
+Parties may adopt approved binding corporate rules for the transfer of data outside a Data Subject’s home country. In the EU, this requires submission to the relevant supervisory authority for approval of the rules that [CUSTOMER_NAME] is seeking to rely upon.  
+8.1.3 Model contract clauses
+[CUSTOMER_NAME] have adopted approved model contract clauses for the transfer of data outside of the EEA in connection with their Joint Controller arrangement.  These clauses may be provided in conjunction with a Data Processing Agreement and are updated as required by changes in law, regulation, or guidance.
+8.1.4 Exceptions
+In the absence of an adequacy decision, binding corporate rules, and/or model contract clauses, a transfer of Personal Data to a third country or international organization shall only take place on one of the following conditions:
+●the Data Subject has explicitly consented to the proposed transfer, after having been informed of the possible risks of such transfers for the Data Subject due to the absence of an adequacy decision and appropriate safeguards;
+●the transfer is necessary for the performance of a contract between the Data Subject and the Controller or the implementation of pre-contractual measures taken at the Data Subject's request;
+●the transfer is necessary for the conclusion or performance of a contract concluded in the interest of the Data Subject between the Controller and another natural or legal person;
+●the transfer is necessary for important reasons of public interest;
+●the transfer is necessary for the establishment, exercise or defense of legal claims; and/or
+●the transfer is necessary in order to protect the vital interests of the Data Subject or of other persons, where the Data Subject is physically or legally incapable of giving consent.
+In all cases, a Transfer Impact Assessment will be completed (see below).
+9. Assessments
+9.1 Data Protection Impact Assessments
+●[CUSTOMER_NAME] conducts data protection impact assessments (DPIAs) in relation to the processing of Personal Data by [CUSTOMER_NAME] that potentially poses a high risk to the rights and freedoms to Data Subjects. [CUSTOMER_NAME] DPIA template follows EU requirements and guidelines.  [CUSTOMER_NAME] uses a template provided by its EU Data Protection Officer.  Where, as a result of a DPIA, [CUSTOMER_NAME] chooses to commence processing of Personal Data that could cause damage and/or distress to the Data Subjects, the decision as to whether [CUSTOMER_NAME] may proceed must be escalated for review to the Chief Operating Officer and the EU Data Protection Officer/UK Data Protection Representative.  The EU Data Protection Officer/UK Data Protection Representative shall, if there are significant concerns either as to the potential damage or distress or the quantity of data concerned, escalate the matter to the applicable supervisory authority.
+●DPIA are updated at least every three (3) years and more often if there is a material change in the processing activity.
+●Appropriate controls will be selected from Annex A of ISO 27001 or similar security standards and applied to reduce the level of risk associated with processing individual data to an acceptable level, by reference to the requirements of the Privacy and Data Protection Regulations.  Mitigating measures are communicated by Operations to the business owner of the processing activity, who is responsible for implementation of any necessary changes to the process.  The applicable DPIA is updated once the additional controls are in place.
+●DPIAs are maintained by Operations in both the Shared Drive and saved to the appropriate Processing Activity record in [NAME_SYSTEM].
+
+9.2 Privacy Impact Assessment 
+[CUSTOMER_NAME] conducts Privacy Impact Assessments (PIAs) as required by various Privacy and Data Protection Regulations related to the processing of personal data.  PIAs are conducted on all new processing activities that do not warrant a DPIA. Where a DPIA is conducted for a processing activity, a PIA will not be conducted.  PIAs are conducted and maintained by Operations within [NAME_SYSTEM] using the [NAME_SYSTEM] template and saved to the appropriate Processing Activity record in [NAME_SYSTEM].
+
+9.3 Transfer Impact Assessments
+[CUSTOMER_NAME] conducts Transfer Impact Assessments (TIAs) as set forth by the EU for transfers of data across borders (unless approved within certain regions, i.e., EEA).  TIAs are not completed for transfers of European Personal Data to jurisdictions that have obtained Adequacy status (however, appropriate contractual measures are still required).  [CUSTOMER_NAME] utilizes a TIA template provided by its EU Data Protection Officer, who reviews and provides advice in each instance.  Where possible, risks are mitigated contractually and by implementing supplementary measures according to the requirements of the Privacy and Data Protection Regulations and the Supervisory Authorities' guidelines.  Unmitigated risks are provided to the Chief Operating Officer for review and acceptance or denial and completed TIAs are maintained by Operations in both the Shared Drive and saved to the appropriate Asset record in [NAME_SYSTEM].
+
+9.4 LIA
+[CUSTOMER_NAME] conducts Legitimate Interest Assessments (LIAs) as required by various Privacy and Data Protection Regulations related to the processing of personal data that relies on the legitimate interest legal processing basis.  LIAs related to European Personal Data are reviewed by [CUSTOMER_NAME]’ EU Data Protection Officer. Unmitigated risks are provided to the Chief Operating Officer for review and acceptance or denial. LIAs are conducted and maintained by Operations within [NAME_SYSTEM] using the [NAME_SYSTEM] template and saved to the appropriate Processing Activity record in [NAME_SYSTEM].
+10. Information asset register/data inventory
+10.1[CUSTOMER_NAME] has established a data inventory and data flow process as part of its approach to address risks and opportunities throughout its privacy and data protection compliance program. [CUSTOMER_NAME]’ data inventory  determines:
+●business processes that use Personal Data;
+●source of Personal Data; 
+●volume of Data Subjects;
+●description of each item of Personal Data;
+●processing activity;
+●maintains the inventory of data categories of Personal Data it Processes; 
+●documents the purpose(s) for which each category of Personal Data is used;
+●recipients, and potential recipients, of the Personal Data;
+●the role of [CUSTOMER_NAME] throughout the data flow;
+●key systems and repositories;
+●any data transfers; and
+●all retention and disposal requirements. 
+10.2[CUSTOMER_NAME] reviews and updates the data inventory on an ongoing basis to ensure it remains accurate related to any changes in the entities processing activities.
+
+Document Owner and Approval
+
+Operations is the owner of this document and is responsible for ensuring that this policy document is reviewed periodically and with senior management input, as applicable. 
+
+This policy was approved by the senior management team on the date set forth below and is issued on a version-controlled basis.
+
+[CEO_NAME], CEO _____________________
+Date [APPROVAL_DATE]
+
+
+Change History Record
+
+Issue Description of Change Approval Date of Issue
+1 Initial issue[_____] 2022
+
+
+ 
+Exhibit A - Related Processes and Procedures
+
+●Information Security Policy
+●Data Governance Program (for now, refer to the Personal Data Retention and Disposal Schedule) 
+●Personal Data Erasure Exceptions 
+●Privacy and Data Protection Competence Record and Training Matrix
+●Incident Response Policy and Procedure
+●Vendor Management Policy and Procedure
+●Data Processing Impact Assessments - also maintained in [NAME_SYSTEM] Processing Activity records
+●Transfer Impact Assessments - also maintained in [NAME_SYSTEM] Asset records
+●Privacy Impact Assessments - maintained in [NAME_SYSTEM] Processing Activity records
+●Legitimate Interest Assessments - maintained in [NAME_SYSTEM] Processing Activity records
+●Data Processing Map (GDPR Art. 30 Register) - maintained in [NAME_SYSTEM] Data Mapping module
+●Cookie management procedure - scripts and consent records maintained in [NAME_SYSTEM] Consent module and procedure maintained by Operations Engineering
+●DSAR procedure - maintained by Community Support
+●Marketing opt-ins/out information - maintained by Marketing
+●Privacy and Data Protection Audits
+●[CUSTOMER_NAME].com Privacy Policy
+●California Privacy Notice
+●[CUSTOMER_NAME] App Privacy Notice
+●[CUSTOMER_NAME].com Cookie and Internet Advertising Policy
+●Employee Privacy Policy
+●Personal Data Protection Job Description Responsibilities
+●[_______]

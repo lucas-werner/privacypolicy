@@ -26,12 +26,6 @@
       }
       section {
         margin-top: 1.5rem;
-        border-top: 1px solid #eee;
-        padding-top: 1rem;
-      }
-      section:first-of-type {
-        border-top: none;
-        padding-top: 0;
       }
       h2 {
         margin-bottom: 0.5rem;
@@ -84,105 +78,21 @@
     </header>
     <main>
       <p>
-        Use this form to generate a privacy policy based on your answers. Fill out
-        the sections below and click <strong>Generate</strong>. The completed policy will
-        display on the page and download as a PDF.
+        Fill out the information below and click <strong>Generate</strong>.
+        The completed policy will display on the page and download as a PDF.
       </p>
       <form id="policyForm">
         <section>
-          <h2>Company Info</h2>
-          <label for="companyName">What is your company name?</label>
+          <h2>Organization Details</h2>
+          <label for="companyName">Company name</label>
           <input type="text" id="companyName" name="companyName" required />
-          <label for="companyLocation">Where is your company based?</label>
-          <input type="text" id="companyLocation" name="companyLocation" />
-          <label for="companyWebsite">Company website?</label>
-          <input type="text" id="companyWebsite" name="companyWebsite" />
-          <label for="ceoName">CEO name?</label>
+          <label for="nameSystem">Name of record system</label>
+          <input type="text" id="nameSystem" name="nameSystem" />
+          <label for="ceoName">CEO name</label>
           <input type="text" id="ceoName" name="ceoName" />
-        </section>
-
-        <section>
-          <h2>DPO & Contacts</h2>
-          <label for="dpoName">Do you have a Data Protection Officer? If so, name?</label>
-          <input type="text" id="dpoName" name="dpoName" />
-          <label for="dpoEmail">DPO email?</label>
-          <input type="text" id="dpoEmail" name="dpoEmail" />
-          <label for="dpoLocation">DPO location?</label>
-          <input type="text" id="dpoLocation" name="dpoLocation" />
-          <label for="privacyEmail">Privacy contact email?</label>
-          <input type="text" id="privacyEmail" name="privacyEmail" />
-          <label for="ukRep">Data Protection Representative in UK?</label>
-          <input type="text" id="ukRep" name="ukRep" />
-        </section>
-
-        <section>
-          <h2>Types of Data</h2>
-          <label for="dataSubjects">Who are your data subjects?</label>
-          <input type="text" id="dataSubjects" name="dataSubjects" />
-          <label for="dataCategories">What categories of personal data do you process?</label>
-          <input type="text" id="dataCategories" name="dataCategories" />
-        </section>
-
-        <section>
-          <h2>Legal Basis</h2>
-          <label for="legalBasis">What is your legal basis for processing data?</label>
-          <input type="text" id="legalBasis" name="legalBasis" />
-        </section>
-
-        <section>
-          <h2>Retention/Disposal</h2>
-          <label for="retentionPeriod">How long do you retain personal data?</label>
-          <input type="text" id="retentionPeriod" name="retentionPeriod" />
-          <label for="disposalMethod">How do you dispose of data?</label>
-          <input type="text" id="disposalMethod" name="disposalMethod" />
-        </section>
-
-        <section>
-          <h2>Data Transfers</h2>
-          <label for="transferOutsideEU">Do you transfer data outside the EU/EEA?</label>
-          <input type="text" id="transferOutsideEU" name="transferOutsideEU" />
-          <label for="transferSafeguards">What safeguards?</label>
-          <input type="text" id="transferSafeguards" name="transferSafeguards" />
-        </section>
-
-        <section>
-          <h2>Subprocessors/Vendors</h2>
-          <label for="useVendors">Do you use vendors/subprocessors?</label>
-          <input type="text" id="useVendors" name="useVendors" />
-          <label for="vendorManagement">How do you select and monitor them?</label>
-          <input type="text" id="vendorManagement" name="vendorManagement" />
-        </section>
-
-        <section>
-          <h2>Rights Requests</h2>
-          <label for="rightsExercise">How can people exercise their data rights?</label>
-          <input type="text" id="rightsExercise" name="rightsExercise" />
-        </section>
-
-        <section>
-          <h2>Supervisory Authority</h2>
-          <label for="complaintEscalation">How can people escalate complaints?</label>
-          <input type="text" id="complaintEscalation" name="complaintEscalation" />
-          <label for="supervisoryAuthority">Which authority?</label>
-          <input type="text" id="supervisoryAuthority" name="supervisoryAuthority" />
-        </section>
-
-        <section>
-          <h2>IT Systems</h2>
-          <label for="itSystems">What are the main systems/repositories for personal data?</label>
-          <input type="text" id="itSystems" name="itSystems" />
-        </section>
-
-        <section>
-          <h2>Versioning</h2>
-          <label for="policyOwner">Who is responsible for the policy?</label>
-          <input type="text" id="policyOwner" name="policyOwner" />
-          <label for="approvalDate">Approval date?</label>
+          <label for="approvalDate">Approval date</label>
           <input type="text" id="approvalDate" name="approvalDate" />
-          <label for="version">Version?</label>
-          <input type="text" id="version" name="version" />
         </section>
-
         <button type="submit">Generate</button>
       </form>
       <div id="result"></div>
@@ -208,31 +118,10 @@
         e.preventDefault();
         const formData = new FormData(e.target);
         const replacements = {
-          'COMPANY_NAME': formData.get('companyName').trim(),
-          'COMPANY_LOCATION': formData.get('companyLocation').trim(),
-          'COMPANY_WEBSITE': formData.get('companyWebsite').trim(),
+          'CUSTOMER_NAME': formData.get('companyName').trim(),
+          'NAME_SYSTEM': formData.get('nameSystem').trim(),
           'CEO_NAME': formData.get('ceoName').trim(),
-          'DPO_NAME': formData.get('dpoName').trim(),
-          'DPO_EMAIL': formData.get('dpoEmail').trim(),
-          'DPO_LOCATION': formData.get('dpoLocation').trim(),
-          'PRIVACY_EMAIL': formData.get('privacyEmail').trim(),
-          'UK_REP': formData.get('ukRep').trim(),
-          'DATA_SUBJECTS': formData.get('dataSubjects').trim(),
-          'DATA_CATEGORIES': formData.get('dataCategories').trim(),
-          'LEGAL_BASIS': formData.get('legalBasis').trim(),
-          'RETENTION_PERIOD': formData.get('retentionPeriod').trim(),
-          'DISPOSAL_METHOD': formData.get('disposalMethod').trim(),
-          'TRANSFER_OUTSIDE_EU': formData.get('transferOutsideEU').trim(),
-          'TRANSFER_GUARDS': formData.get('transferSafeguards').trim(),
-          'USE_VENDORS': formData.get('useVendors').trim(),
-          'VENDOR_MANAGEMENT': formData.get('vendorManagement').trim(),
-          'RIGHTS_EXERCISE': formData.get('rightsExercise').trim(),
-          'COMPLAINT_ESCALATION': formData.get('complaintEscalation').trim(),
-          'SUPERVISORY_AUTHORITY': formData.get('supervisoryAuthority').trim(),
-          'IT_SYSTEMS': formData.get('itSystems').trim(),
-          'POLICY_OWNER': formData.get('policyOwner').trim(),
           'APPROVAL_DATE': formData.get('approvalDate').trim(),
-          'VERSION': formData.get('version').trim(),
         };
 
         const template = await loadTemplate();
@@ -244,8 +133,31 @@
 
         const { jsPDF } = window.jspdf;
         const doc = new jsPDF();
-        const lines = doc.splitTextToSize(filled, 180);
-        doc.text(lines, 10, 10);
+        doc.setFont('times', 'normal');
+        doc.setFontSize(12);
+        const lines = filled.split('\n');
+        const pageHeight = doc.internal.pageSize.getHeight();
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const margin = 20;
+        let y = margin;
+
+        lines.forEach((line) => {
+          const split = doc.splitTextToSize(line, pageWidth - margin * 2);
+          split.forEach((sLine) => {
+            if (y > pageHeight - margin) {
+              doc.addPage();
+              y = margin;
+            }
+            if (/^\\d+(\.\\d+)*\s/.test(sLine) || /^Exhibit/.test(sLine)) {
+              doc.setFont(undefined, 'bold');
+            } else {
+              doc.setFont(undefined, 'normal');
+            }
+            doc.text(sLine, margin, y);
+            y += 14;
+          });
+        });
+
         doc.save('privacy_policy.pdf');
       });
     </script>
