@@ -43,7 +43,8 @@
         display: block;
         margin-top: 1rem;
       }
-      input[type="text"] {
+      input[type="text"],
+      input[type="file"] {
         width: 100%;
         padding: 0.5rem;
         font-size: 1rem;
@@ -99,6 +100,10 @@
           <input type="text" id="companyWebsite" name="companyWebsite" />
           <label for="ceoName">CEO name?</label>
           <input type="text" id="ceoName" name="ceoName" />
+          <label for="nameSystem">Name of record system?</label>
+          <input type="text" id="nameSystem" name="nameSystem" />
+          <label for="companyLogo">Upload company logo</label>
+          <input type="file" id="companyLogo" name="companyLogo" accept="image/*" />
         </section>
 
         <section>
@@ -207,11 +212,24 @@
       document.getElementById('policyForm').addEventListener('submit', async (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
+        const logoFile = formData.get('companyLogo');
+        let logoDataUrl = null;
+        if (logoFile && logoFile.size > 0) {
+          logoDataUrl = await new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = (ev) => resolve(ev.target.result);
+            reader.onerror = reject;
+            reader.readAsDataURL(logoFile);
+          });
+        }
+
         const replacements = {
+          'CUSTOMER_NAME': formData.get('companyName').trim(),
           'COMPANY_NAME': formData.get('companyName').trim(),
           'COMPANY_LOCATION': formData.get('companyLocation').trim(),
           'COMPANY_WEBSITE': formData.get('companyWebsite').trim(),
           'CEO_NAME': formData.get('ceoName').trim(),
+          'NAME_SYSTEM': formData.get('nameSystem').trim(),
           'DPO_NAME': formData.get('dpoName').trim(),
           'DPO_EMAIL': formData.get('dpoEmail').trim(),
           'DPO_LOCATION': formData.get('dpoLocation').trim(),
@@ -244,8 +262,40 @@
 
         const { jsPDF } = window.jspdf;
         const doc = new jsPDF();
-        const lines = doc.splitTextToSize(filled, 180);
-        doc.text(lines, 10, 10);
+        doc.setFont('times', 'normal');
+        doc.setFontSize(12);
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const pageHeight = doc.internal.pageSize.getHeight();
+        const margin = 20;
+        let y = margin;
+
+        if (logoDataUrl) {
+          const imgProps = doc.getImageProperties(logoDataUrl);
+          const imgWidth = 50;
+          const imgHeight = (imgProps.height * imgWidth) / imgProps.width;
+          const imgType = logoFile.type.includes('png') ? 'PNG' : 'JPEG';
+          doc.addImage(logoDataUrl, imgType, (pageWidth - imgWidth) / 2, y, imgWidth, imgHeight);
+          y += imgHeight + 10;
+        }
+
+        const lines = filled.split('\n');
+        lines.forEach((line) => {
+          const split = doc.splitTextToSize(line, pageWidth - margin * 2);
+          split.forEach((sLine) => {
+            if (y > pageHeight - margin) {
+              doc.addPage();
+              y = margin;
+            }
+            if (/^\d+(\.\d+)*\s/.test(sLine) || /^Exhibit/.test(sLine)) {
+              doc.setFont(undefined, 'bold');
+            } else {
+              doc.setFont(undefined, 'normal');
+            }
+            doc.text(sLine, margin, y);
+            y += 14;
+          });
+        });
+
         doc.save('privacy_policy.pdf');
       });
     </script>
