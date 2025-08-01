@@ -11,7 +11,7 @@ No build step or installation is required. Simply open `index.html` in a web bro
 open privacypolicy/index.html
 ```
 
-Fill out the form (company name, record system, CEO and approval date) and click **Generate**. The completed policy will appear on the page and a PDF will be downloaded to your machine.
+Fill out the form with company details, contacts, data practices and retention, and upload a company logo. Click **Generate** to display the completed policy on the page and download it as a PDF.
 
 ## Modifying the template
 
